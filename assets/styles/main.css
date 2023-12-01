@@ -1,0 +1,103 @@
+
+
+.corpo{
+padding: 2rem 4rem;
+}
+
+.Titulo{
+    padding: 1rem 1rem;
+    color: var(--vinho);
+    font-family: var(--font-principal);
+    font-size: 23px;/*tamanho utilizado por padrao*/
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.texto{
+   text-align: justify;
+   font-size: 13px; 
+   padding: 1rem 2.7rem;
+   line-height: 170% ;
+}
+
+
+
+
+.bola{
+    background: var(--vinho);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border-color: transparent;
+    
+}
+
+.bola,
+.Titulo{
+    display: inline;
+    justify-content: baseline;
+    
+}
+
+.sub_titulo{
+    padding: 1rem 2.6rem;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.img_empresa{
+    width: 60px;
+    margin-left: 2rem;
+    border-radius: 100%;
+    transition: 500ms linear; 
+   
+}
+
+
+.img_empresa:hover{
+    width: 100px;
+    transition: 500ms linear; 
+    border-radius: 10%;
+    
+}
+
+
+.lista__lista{
+    display: flex;
+    justify-content:space-between;
+    padding: 1rem;
+   
+}
+
+.rodape{
+    font-size: 10px;
+    padding: 1rem;
+    
+}
+
+@media  screen and (max-width: 1023px){
+
+    .lista__lista{
+        display: block;
+        justify-content: center;
+        justify-items: center;
+        padding: 1rem;
+        margin-left: 2rem;
+    }
+
+
+    .img_empresa{
+        padding: 1.5rem 0;
+    }
+
+    .img_empresa:hover{
+        width: 80px;        
+        border-radius: 25%;
+        
+    }
+
+    
+
+}

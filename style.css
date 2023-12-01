@@ -1,0 +1,23 @@
+@import url("assets/styles/cabecalho.css"); /* busca o estilo*/
+@import url("assets/styles/main.css"); /* busca o estilo*/
+
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --cor-branco: #fff;
+    --vinho: #9B0F56;
+    --azul:#002f52;
+    --azul-degrade: linear-gradient(97.54deg, #002f52 25.49%, #326589 165.37%);
+    --font-principal: "Poppins";
+    --font-secundaria: "Josefin Sans";
+    --preto: black;
+    --cinza:#4646;
+    --cinza-claro: #858585;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-principal);
+    font-size: 16px;/*tamanho utilizado por padrao*/
+    font-weight: 400;
+}
